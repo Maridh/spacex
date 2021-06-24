@@ -1,0 +1,46 @@
+.menu {
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu li {
+    margin-left: 4rem;
+    list-style: none;
+}
+
+.link {
+    color:#f0724b;
+    text-decoration: none;
+}
+
+@media (max-width:768px){
+    .menu {
+        margin: 0.8rem;
+        display: flex;
+        justify-content: flex-start;
+        
+    }
+
+    .menu li{
+        margin: 0.8rem;
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+    }
+
+    .menu ul{
+        margin: 0rem;
+        display: flex;
+        display: inline-block;
+    }
+}
+
+@media (max-width:375px){
+   .menu li{
+    margin-left: 0rem;
+    margin-right: 0.5rem;
+    font-size: 12px;
+   } 
+}
